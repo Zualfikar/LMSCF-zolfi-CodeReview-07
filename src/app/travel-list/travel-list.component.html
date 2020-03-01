@@ -1,0 +1,51 @@
+<!-- <h2>offers</h2>
+
+
+	<div *ngFor="let trip of trips ; index as tripId">
+
+ <h3>
+   <a [routerLink]="['/trips', tripId]">
+     {{ trip.name }}
+   </a>
+ </h3>
+    <p>{{trip.duration}}</p>
+    <p>{{trip.price}}</p>
+    
+</div>
+
+
+
+
+<form [formGroup]="result" (ngSubmit)="compair(result.value)">
+
+ <div>
+   <label for="name">
+     Name
+   </label>
+   <input id="name" type="text" formControlName="name">
+ </div>
+
+
+
+ <button class="button" type="submit">Purchase</button>
+
+</form> -->
+
+  
+    <div *ngFor="let trip of trips ; index as tripId">
+     
+  <div class="card-group vgr-cards">
+    <div class="card">
+      <div class="card-img-body">
+      <img class="card-img" src="{{trip.img}}" alt="Card image cap">
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">{{trip.name}}</h4>
+        <p class="card-text">{{trip.duration}}</p>
+        <p class="card-text">{{trip.price}}$</p>
+        <a [routerLink]="['/trips', tripId]" href="#" class="btn btn-outline-primary">Primary</a>
+      </div>
+    </div>
+   
+    </div>
+  </div>
