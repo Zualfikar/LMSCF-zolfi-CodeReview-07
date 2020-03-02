@@ -7,7 +7,7 @@ export const trips = [
       destination: 'Turkey, Georgia',
       price: 500,
       description: 'Wine lovers, this is the trip for you!',
-      img:'bg1.jpg'
+      img:'imgs/india.jpg'
     },
     {
       name: 'Trans Africa - Top To Bottom',
@@ -15,7 +15,7 @@ export const trips = [
       destination: 'Egypt, Sudan, Ethiopia, Kenya, Tanzania, Sambia, Zimbabwe, Mozambique, Botswana,South Africa',
       price: 12400,
       description: 'Explore a whole continent in one go!',
-      img:'m1.jpg'
+      img:'india.jpg'
     },
     {
       name: 'The Whole Kit + Caboodle',
